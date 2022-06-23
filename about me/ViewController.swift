@@ -13,7 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    @IBAction func button(_ sender: Any) {
+    }
+        
+    @IBOutlet weak var funFact: UILabel!
 
-
+    @IBAction func (sender: UIButton) {
+        funFact.text = "fun fact: I have 2 siblings"
+    }
 }
-
